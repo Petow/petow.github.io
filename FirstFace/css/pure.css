@@ -1,0 +1,36 @@
+
+[hidden] {
+    display: none
+}
+
+html {
+    font-size: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+
+body {
+    margin: 0
+}
+
+a:focus {
+    outline: thin dotted
+}
+
+a:active, a:hover {
+    outline: 0
+}
+
+h3 {
+    font-size: 1.17em;
+    margin: 1em 0
+}
+
+[hidden] {
+    display: none!important
+}
+
+.pure-u-1 {
+    width: 100%
+}
