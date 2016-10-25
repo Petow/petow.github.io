@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>时间表</title>
+
+  <link rel="stylesheet" href="css/timer.css" media="screen" title="no title" charset="utf-8">
+</head>
+<body>
+  <div class="conter">
+    <div class="ffer">
+      <h1>时间列表</h1>
+    </div>
+    <div class="ffer">
+      <div id="example">
+          <ul>
+              <li>
+                  <button class="J_Count" data-count="1">单日历</button>
+                  <button class="J_Count" data-count="2">双日历</button>
+                  <button class="J_Count" data-count="3">三日历</button>
+                  <button class="J_Count" data-count="4">四日历</button>
+              </li>
+              <li>
+                  <button class="J_Holiday" data-holiday="1">显示节假日</button>
+                  <button class="J_Holiday" data-holiday="0">隐藏节假日</button>
+              </li>
+              <li>
+                  <button class="J_Limit" data-value="90">限制时间范围(今天-90天)</button>
+                  <button class="J_Limit">取消限制</button>
+              </li>
+              <li>
+                  <button class="J_Select" data-select="1">下拉表单选择时间</button>
+                  <button class="J_Select" data-select="0">取消下拉表单选择</button>
+              </li>
+          </ul>
+      </div>
+    </div>
+
+  <div class="ffer">
+    <div id="J_Example"></div>
+  </div>
+<br>
+  <div class="ffer">
+    <div class="container">
+      <div class="point"></div>
+      <div class="hours">
+        <div></div>
+      </div>
+      <div class="minn">
+        <div></div>
+      </div>
+      <div class="scend">
+        <div></div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+
+<script src="js/timer.js"></script>
+<script src="http://g.tbcdn.cn/kissy/k/1.4.6/seed-min.js" charset="utf-8"></script>
+<script src="js/day.js" charset="utf-8"></script>
+</body>
+</html>

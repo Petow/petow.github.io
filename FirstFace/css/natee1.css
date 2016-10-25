@@ -54,7 +54,11 @@ body {
     background-color: rgba(0, 0, 0, 0.05);
 }
 
-
+.conter{
+  background-color: #d0d6d1;
+  border-color: #a7a7a7;
+  border-width: 2px;
+}
 
 .container .introduce {
     text-align: center;
